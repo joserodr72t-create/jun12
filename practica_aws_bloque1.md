@@ -30,7 +30,7 @@ Debe devolver tu `Account`, `Arn` y `UserId`. Si falla, revisa `aws configure` a
 
 ## Fase 0 — Variables de entorno
 
-Toda la práctica usa variables para que **nadie tenga que inventar nombres** y para que los recursos no choquen entre alumnos. La clave es que los nombres son **deterministas** (se derivan del *account id* y de la fecha) y los IDs de recursos ya creados se **redescubren** consultando a AWS. Así, cada vez que abras una terminal nueva, basta con volver a cargar el script.
+Toda la práctica usa variables para que **nadie tenga que inventar nombres** y para que los recursos no tengan conflictos. La clave es que los nombres son **deterministas** (se derivan del *account id* y de la fecha) y los IDs de recursos ya creados se **redescubren** consultando a AWS. Así, cada vez que abras una terminal nueva, basta con volver a cargar el script.
 
 Crea el archivo `setup-env.sh`:
 
